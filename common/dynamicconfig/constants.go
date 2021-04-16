@@ -203,7 +203,7 @@ const (
 	FrontendVisibilityMaxPageSize
 	// FrontendVisibilityListMaxQPS is max qps frontend can list open/close workflows
 	// KeyName: frontend.visibilityListMaxQPS
-	// Default value: 1
+	// Default value: 10
 	FrontendVisibilityListMaxQPS
 	// FrontendESVisibilityListMaxQPS is max qps frontend can list open/close workflows from ElasticSearch
 	// KeyName: frontend.esVisibilityListMaxQPS
