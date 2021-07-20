@@ -263,7 +263,7 @@ func (a *AccessControlledWorkflowHandler) ListDomains(
 	scope := a.GetMetricsClient().Scope(metrics.FrontendListDomainsScope)
 
 	attr := &authorization.Attributes{
-		APIName: "ListDomains",
+		APIName:    "ListDomains",
 		Permission: authorization.PermissionAdmin,
 	}
 	isAuthorized, err := a.isAuthorized(ctx, attr, scope)
