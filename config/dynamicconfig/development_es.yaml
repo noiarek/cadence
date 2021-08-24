@@ -1,3 +1,7 @@
+frontend.visibilityListMaxQPS:
+    - value: 10000
+frontend.esVisibilityListMaxQPS:
+    - value: 10000
 frontend.enableClientVersionCheck:
   - value: true
 system.advancedVisibilityWritingMode:
